@@ -27,13 +27,13 @@ Based on [hexo-theme-melody](https://github.com/Molunerfinn/hexo-theme-melody) t
 Stable branch [recommend]:
 
 ```
-git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
+git submodule add -b master git@github.com:Wonderland6627/hexo-theme-butterfly.git themes/butterfly
 ```
 
 Dev branch:
 
 ```
-git clone -b dev https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
+git submodule add -b dev git@github.com:Wonderland6627/hexo-theme-butterfly.git themes/butterfly
 ```
 
 ### NPM
