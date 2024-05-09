@@ -32,5 +32,7 @@
       !=partial('includes/widget/card_categories', {}, {cache: true})
       !=partial('includes/widget/card_tags', {}, {cache: true})
       !=partial('includes/widget/card_archives', {}, {cache: true})
+      if theme.aside.card_map
+        !=partial('includes/widget/card_map', {}, {cache:true})
       !=partial('includes/widget/card_webinfo', {}, {cache: true})
       !=partial('includes/widget/card_bottom_self', {}, {cache: true})
